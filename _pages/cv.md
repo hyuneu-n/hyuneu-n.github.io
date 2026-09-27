@@ -3,62 +3,40 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+## Profile
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+Computer vision and edge AI engineer focused on visual localization, foundation-model perception, embedded inference, and engineering tools that make experiments reproducible.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **B.S. in Computer Engineering**, Seokyeong University — Seoul, South Korea
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Research and engineering experience
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Korea Electronics and Telecommunications Research Institute (ETRI)
+
+Research engineering across GNSS-denied UAM visual localization, aerial-image retrieval, foundation-model features, metadata filtering, local matching, and edge deployment.
+
+### Multimodal time-series research
+
+Designed text/video preprocessing and cross-modal attention interfaces, and continue to investigate facial-coordination signals as a technical representation-learning problem.
+
+### Graduation capstone — Safe Landing for UAV Delivery
+
+Ongoing simulation-based system using DINOv2, RGB-D, ROS 2, and Gazebo. The project is explicitly not presented as real-flight experience.
+
+## Technical skills
+
+**Vision & ML:** DINOv2, DINOv3, VPR, FAISS, LightGlue, ONNX Runtime, object detection, image segmentation
+
+**Edge & systems:** Jetson AGX Orin, Raspberry Pi 5, Hailo-10H, profiling, model conversion, deployment validation
+
+**Software:** Python, C#, .NET, WPF, Django, Spring Boot, AWS, CI/CD, ROS 2, Gazebo
+
+## Publications
+
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
